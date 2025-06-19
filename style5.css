@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 7.8em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}
+#box1{
+    background-color: rgb(246, 52, 52);
+}
+#box2{
+    background-color: cyan;
+}
+#box3{
+    background-color: lime;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: lightpink;
+}

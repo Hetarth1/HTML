@@ -1,0 +1,12 @@
+body {
+     border: 4px solid; padding: 5px;
+     display: flow-root;
+}
+#img1 {
+    float: right;
+    margin-left: 20 px;
+}
+#img2 {
+    float:left;
+    margin-right: 20 px;
+}

@@ -1,0 +1,171 @@
+body {
+    background-color: #1e1e2f;      
+    color: #ffffff;                 
+    font-family: 'Segoe UI', sans-serif;
+
+    padding: 40px 20px;             
+    border: 4px solid #3a3a50;      
+    border-radius: 20px;            
+
+    max-width: 360px;              
+    margin: 50px auto;              
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+}
+
+/* General button style */
+input[type="button"] {
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 1px solid #3a3a50;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Number buttons */
+input[name="Numbers"] {
+    background-color: #2e2e3e;
+    color: #ffffff;
+}
+
+input[name="Numbers"]:hover {
+    background-color: #3f3f5a;
+}
+
+input[name="Numbers"]:active {
+    background-color: #57577a;
+}
+input[name="Mathematical Operators"] {
+    background-color: #3a2c1e;
+    color: #ffca28;
+}
+
+input[name="Mathematical Operators"]:hover {
+    background-color: #5a3e1f;
+}
+
+input[name="Mathematical Operators"]:active {
+    background-color: #6e4a22;
+}
+input[value="0"] {
+    width: 136px;
+}
+input[value="0"]:hover { background-color: #3f3f5a; }
+input[value="0"]:active { background-color: #57577a; }
+input[value="="] {
+    background-color: #ffca28;
+    color: #1e1e2f;
+    font-weight: bold;
+    height: 64px;
+    width: 136px;
+    border: 1px solid #3a3a50;
+}
+
+input[value="="]:hover {
+    background-color: #ffd54f;
+}
+
+input[value="="]:active {
+    background-color: #f4b400;
+}
+#display {
+    width: 280px;
+    height: 60px;
+    margin-bottom: 20px;
+
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px 15px;
+
+    border: 2px solid #3a3a50;
+    border-radius: 12px;
+
+    outline: none;
+    caret-color: #ffca28;
+}
+#error-message {
+    display: none;
+    background-color: rgba(255, 0, 0, 0.8); /* translucent red */
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+    transition: opacity 0.5s ease;
+}
+#clear-button {
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    background-color: #6c757d;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #3a3a50;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+#clear-button:hover {
+    background-color: #868e96;
+}
+
+#clear-button:active {
+    background-color: #495057;
+}
+#toggle-functions {
+    background-color: #37474f;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#function-buttons {
+    max-height: 500px; /* Large enough for all buttons */
+    opacity: 1;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+#function-buttons.hidden {
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#toggle-functions {
+    background-color: #37474f;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#toggle-functions:hover {
+    background-color: #455a64;
+    transform: scale(1.03);
+}
+
+
