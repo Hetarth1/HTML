@@ -1,3 +1,30 @@
-<html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-do List</title>
+  <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+  <div class="app-layout">
+    <h1>📝 To-do List</h1>
+
+    <div class="Adding-task">
+      <input type="text" id="taskInput" placeholder="Enter a new task">
+      <input type="button" value="Add" onclick="addTask()">
+    </div>
+
+    <div id="taskList" class="task-list">
+   
+    </div>
+
+    <button id="toggleBin">🗑️ View Bin</button>
+
+    <div id="bin" class="task-list bin hidden">
+     
+    </div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
 </html>
